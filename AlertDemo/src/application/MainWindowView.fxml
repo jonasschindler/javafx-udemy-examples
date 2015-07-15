@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
+   <children>
+      <Label alignment="CENTER" layoutX="184.0" layoutY="26.0" text="Alert Boxes" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Helvetica Neue" size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <VBox alignment="CENTER" layoutX="58.0" layoutY="71.0" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+               <children>
+                  <Button fx:id="alert1" layoutX="58.0" layoutY="71.0" mnemonicParsing="false" onAction="#showAlert1" text="Alert 1" />
+                  <Button fx:id="alert2" layoutX="58.0" layoutY="124.0" mnemonicParsing="false" onAction="#showAlert2" text="Alert 2" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="alert3" mnemonicParsing="false" onAction="#showAlert3" text="Alert 3" />
+                  <Button mnemonicParsing="false" onAction="#showAlert4" text="Alert 4" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

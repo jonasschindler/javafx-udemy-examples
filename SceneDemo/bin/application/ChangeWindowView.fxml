@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" fx:controller="application.ChangeWindowController">
+   <children>
+      <Label alignment="CENTER" layoutX="234.0" layoutY="36.0" text="new content" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="221.0" layoutY="104.0" mnemonicParsing="false" onAction="#goBack" text="go back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+#region {
+	-fx-background-color: #E57373;
+}
+
+.label {
+	-fx-font-family: "Futura";
+}
+
+#textField {
+	-fx-background-color: #EEEEEEEE;
+}
